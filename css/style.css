@@ -1,0 +1,107 @@
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  color: #000000;
+  display: inline;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.inline-block {
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+  }
+  .ReduceLogoImage {
+    width: 8%;
+    height: auto;  }
+    .header {
+      background-color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .left {
+    float: left;
+    width: 30%;
+    background-color: #ffffff;
+    height: 500px;
+  }
+  .right {
+    float: left;
+    width: 70%;
+    background-color: #ffffff;
+    height: 500px;
+  }
+  .imagePlaceholder {
+    height: 250px;
+    background-color: #ffffff;
+  }
+  
+  .ReduceMeImage {
+    width: 15%;
+    height: 300px;
+    border-radius: 10px;
+    float: left;
+    padding: 25px;
+  }
+  .titleCenter {
+    text-align: center;
+    width: 100%;
+  }
+  .group {
+    color: black;
+    text-align: center;
+  }
+  .group {
+    color: black;
+    text-align: center;
+  }
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.row {
+  display: flex;
+}
+.column {
+  float: left;
+  width: 40%;
+  padding: 30px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(4, 3, 3);
+  text-align: left;
+  display: flex;
+  font-size: 20px;
+}
